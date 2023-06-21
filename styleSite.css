@@ -4,6 +4,16 @@ body {
     background: #201B2C;
 }
 
+.loginUser{
+	display: flex;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #fff;
+	
+	align-items: center;
+	justify-content: center;
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -89,11 +99,11 @@ nav .btn2 {
 }
 
 
-.filmes>img {
+.filmes .image-container {
     width: 122px;
-    height: 212x;
+    height: 212px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 20px;
 }
 
@@ -110,4 +120,48 @@ nav .btn2 {
     font-weight: 400;
     display: flex;
     justify-content: start;
+}
+
+.info > date{
+    width: 100%;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+}
+
+.info > categoria{
+    width: 100%;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+}
+
+.info > descricao{
+    width: 100%;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+}
+
+.image-container{
+    gap: 10px;
+}
+
+.image-container > button{
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0, .0);
+    color: #FFFFFF;
+}
+
+.image-container > button:hover{
+    cursor: pointer;
+    background-color: #77FFC0;
+    color: #201B2C;
+}
+
+.img-favorito:hover{
+    color: rgb(0, 0, 0, .0);
+}
+.image-container > img{
+    border-radius: 10px;
 }
