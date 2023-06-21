@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,244 +6,356 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./css/styleSite.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <title>SiteMain</title>
 </head>
 
 <body>
 	<nav>
-		<button class="btn1" onclick="window.open('#')">InÌcio</button>
+		<button class="btn1" onclick="window.open('#')">In√≠cio</button>
 		<button class="btn2" onclick="window.open('#')">Minha Lista</button>
-		<button class="btn2" onclick="window.open('FormLogin.html')">Sing
-			in</button>
+		<button class="btn2" onclick="window.open('loginUsuario.jsp')">Sing in</button>
+		<a class="loginUser" href="#"><img alt=""
+			src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/bec360bfd6672f04b6d6136daec3ea039cdcd5b0/imgs/loginUser.svg"></a>
 	</nav>
 	<div class="mainSite">
 		<h1>Os Mais Esperados</h1>
 		<div class="Lancamentos">
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_AsMarvels.jpg"
-					alt="As Marvels">
+				<div class="image-container">
+					<img class="img-favorito"
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_AsMarvels.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
+				<div class="info">
+					<h1>As Marvels</h1>
+					<div class="date">9 de novembro de 2023</div>
+					<div class="duracao"></div>
+					<div class="categoria">A√ß√£o, Aventura, Fantasia</div>
+					<div class="descricao">Capit√£ Marvel, Ms. Marvel e Monica
+						Rambeau est√£o envolvidas em um misterioso fen√¥meno em que seus
+						poderes est√£o interligados, fazendo com que elas troquem de lugar
+						sem entender a causa para tal.</div>
+				</div>
+			</div>
+			<div class="filmes">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Avatar3.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
+				<div class="info">
+					<h1>Avatar 3</h1>
+					<div class="date">20 de dezembro de 2024</div>
+					<div class="duracao"></div>
+					<div class="categoria">Aventura, Anima√ß√£o, Fic√ß√£o Cient√≠fica</div>
+					<div class="descricao">Terceira continua√ß√£o de Avatar, fic√ß√£o
+						cient√≠fica de 2009 dirigida por James Cameron. O longa continuar√°
+						explorando a fam√≠lia de Jake Sully e Neytiri. Agora, eles
+						conhecer√£o o Povo das Cinzas.</div>
+				</div>
+			</div>
+			<div class="filmes">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Barbie.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
 					<h1>Barbie</h1>
 					<div class="date">20 de julho de 2023</div>
 					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
+					<div class="categoria">Aventura, Com√©dia, Fam√≠lia</div>
+					<div class="descricao">No mundo m√°gico das Barbies, uma das
+						bonecas come√ßa a perceber que n√£o se encaixa como as outras, e
 						acaba sendo banida para o mundo real com seu amado Ken.</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Avatar3.jpg"
-					alt="Avatar 3">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Besouro Azul.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+					<h1>Besouro Azul</h1>
+					<div class="date">17 de agosto de 2023</div>
+					<div class="duracao"></div>
+					<div class="categoria">A√ß√£o, Aventura, Fantasia</div>
+					<div class="descricao">Um adolescente mexicano encontra um
+						besouro alien√≠gena que lhe d√° uma armadura superpoderosa.</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Barbie.jpg"
-					alt="Barbie">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_DunaParte2.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+					<h1>Duna - Parte 2</h1>
+					<div class="date">2 de novembro de 2023</div>
+					<div class="duracao"></div>
+					<div class="categoria">Drama, Fic√ß√£o Cient√≠fica</div>
+					<div class="descricao">Em Duna: Parte 2, Paul Atreides se une
+						a Chani e aos Fremen enquanto busca vingan√ßa contra os
+						conspiradores que destru√≠ram sua fam√≠lia.</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Besouro Azul.jpg"
-					alt="Besouro Azul">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Elementos.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+					<h1>Elementos</h1>
+					<div class="date">22 de junho de 2023</div>
+					<div class="duracao">1h 42min</div>
+					<div class="categoria">Anima√ß√£o, Com√©dia, Fam√≠lia</div>
+					<div class="descricao">Em uma sociedade em que os quatro
+						elementos da natureza vivem em harmonia, uma jovem mulher do
+						elemento fogo e um tranquilo rapaz do elemento √°gua acabam se
+						conhecendo, e percebem que tem muito mais em comum do que achavam.</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_DunaParte2.jpg"
-					alt="Duna">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_FaleComigo.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+					<h1>Fale Comigo</h1>
+					<div class="date">17 de agosto de 2023</div>
+					<div class="duracao">1h 35min</div>
+					<div class="categoria">Terror, Suspense</div>
+					<div class="descricao">Quando um grupo de amigos descobre
+						como conjurar esp√≠ritos usando uma misteriosa m√£o assombrada, eles
+						ficam viciados nessa nova emo√ß√£o, at√© que um deles vai longe
+						demais e abre a porta do mundo espiritual, for√ßando-os a escolher
+						em quem confiar: o mortos ou vivos.</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Elementos.jpg"
-					alt="Elementos">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Hypnotic.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+					<h1>Hypnotic</h1>
+					<div class="date">28 de setembro de 20233</div>
+					<div class="duracao">1h 33min</div>
+					<div class="categoria">A√ß√£o, Suspense</div>
+					<div class="descricao">Um detetive investiga uma s√©rie de
+						roubos elaborados, e acaba descobrindo que sua filha desaparecida
+						e o pr√≥prio governo podem estar por tr√°s do caso</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_FaleComigo.jpg"
-					alt="Fale Comigo">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_IndianaJones.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+					<h1>Indiana Jones e A ReliÃÅquia do Destino</h1>
+					<div class="date">29 de junho de 2023</div>
+					<div class="duracao">2h 34min</div>
+					<div class="categoria">A√ß√£o, Aventura</div>
+					<div class="descricao">Sequ√™ncia da franquia do famoso e
+						aventureiro arque√≥logo Indiana Jones (Harrisson Ford), em mais uma
+						miss√£o inesperada.</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Hypnotic.jpg"
-					alt="Hypnotic">
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_JogosVorazes.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
+				</div>
 				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023>1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+					<h1>Jogos Vorazes ‚Äì A Cantiga dos P√°ssaros e das Serpentes</h1>
+					<div class="date">15 de novembro de 2023</div>
+					<div class="duracao"></div>
+					<div class="categoria">A√ß√£o, Aventura, Fic√ß√£o Cient√≠fica</div>
+					<div class="descricao">A hist√≥ria de Coriolanus Snow antes de
+						ser Presidente Snow. Na d√©cima edi√ß√£o dos Jogos, Snow de dezoito
+						anos de idade dever√° mentorar um tributo, mas pega justamente uma
+						garota do Distrito 12, o pior dos piores. Em meio √† uma rede de
+						trai√ß√µes, manipula√ß√µes e farsas, Snow dever√° n√£o s√≥ proteger si
+						mesmo, mas ter√° que fazer com que a garota chegue at√© o final da
+						competi√ß√£o.</div>
 				</div>
 			</div>
 			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_IndianaJones.jpg"
-					alt="Indiana Jones">
-				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
+				<div class="image-container">
+					<img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_MansaoMalAssombrada.jpg"
+						alt="">
+					<button onclick="window.open('userList.jsp')">
+						adicionar lembrete <img
+							src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+					</button>
 				</div>
+				<div>
+                    <h1>Mans√£o Mal-Assombrada</h1>
+                    <div class="date">27 de julho de 2023</div>
+                    <div class="duracao"></div>
+                    <div class="categoria">Aventura, Com√©dia, Fam√≠lia</div>
+                    <div class="descricao">Uma m√£e e seu filho de nove anos est√£o
+                        tentando come√ßar uma nova vida. √â ent√£o que se mudam para uma
+                        mans√£o, eles s√≥ na√µ contavam que a casa j√° abrigava moradores
+                        inesperados. Quando descobrem que a mans√£o √© assombrada, eles
+                        contatam um padre que, por sua vez, pede a ajuda de um especialista
+                        paranormal, um m√©dium e um historiador mal-humorado.
+                                    </div>
+                </div>
 			</div>
-			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_JogosVorazes_ACantigaDosPassarosDasSerpentes.jpg"
-					alt="Jogos Vorazes">
-				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
-				</div>
-			</div>
-			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_MansaoMalAssombrada.jpg"
-					alt="Mans„o Mal Assombrada">
-				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
-				</div>
-			</div>
-			<div class="filmes">
+		</div>
+		<div class="filmes">
+			<div class="image-container">
 				<img
 					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_MissaoImpossivel7.jpg"
-					alt="Miss„o Impossivel">
-				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
-				</div>
+					alt="">
+				<button onclick="window.open('userList.jsp')">
+					adicionar lembrete <img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+				</button>
 			</div>
-			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Oppenheimer.jpg"
-					alt="Oppenheimer">
-				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
-				</div>
-			</div>
-			<div class="filmes">
-				<img
-					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Sobrenatural A Porta Vermelha.jpg"
-					alt="Sobrenatural">
-				<div class="info">
-					<h1>Barbie</h1>
-					<div class="date">20 de julho de 2023</div>
-					<div class="duracao">1h 54min</div>
-					<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-					<div class="descricao">No mundo m·gico das Barbies, uma das
-						bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-						acaba sendo banida para o mundo real com seu amado Ken.</div>
-				</div>
+			<div class="info">
+				<h1>Miss√£o Imposs√≠vel 7: Acerto de Contas Parte 1</h1>
+				<div class="date">13 de julho de 2023</div>
+				<div class="duracao">2h 43min</div>
+				<div class="categoria">A√ß√£o, Espionagem</div>
+				<div class="descricao">No novo cap√≠tulo da franquia Miss√£o
+					Imposs√≠vel, o agente Ethan Hunt e sua equipe partem em um novo
+					desafio para rastrear uma arma que, se cair em m√£os erradas, pode
+					amea√ßar toda a humanidade.</div>
 			</div>
 		</div>
 		<div class="filmes">
+			<div class="image-container">
+				<img
+					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_JogosVorazes.jpg"
+					alt="">
+				<button onclick="window.open('userList.jsp')">
+					adicionar lembrete <img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+				</button>
+			</div>
+			<div class="info">
+				<h1>Oppenheimer</h1>
+				<div class="date">21 de julho de 2023</div>
+				<div class="duracao">3h 00min</div>
+				<div class="categoria">Biopic, Hist√≥rico, Suspense</div>
+				<div class="descricao">Na Segunda Guerra Mundial, um grupo de
+					cientistas participa de um projeto secreto para desenvolver as
+					primeiras bombas at√¥micas.</div>
+			</div>
+		</div>
+		<div class="filmes">
+			<div class="image-container">
+				<img
+					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Sobrenatural A Porta Vermelha.jpg.jpg"
+					alt="">
+				<button onclick="window.open('userList.jsp')">
+					adicionar lembrete <img
+						src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+				</button>
+			</div>
+			<div class="info">
+				<h1>Sobrenatural: A Porta Vermelha</h1>
+				<div class="date">6 de julho de 2023</div>
+				<div class="duracao"></div>
+				<div class="categoria">Fantasia, Terror</div>
+				<div class="descricao">No quinto filme da franquia de
+					Sobrenatural, Dalton e Josh s√£o for√ßados a retornar √† dimens√£o da
+					Porta Vermelha, enfrentando seus medos mais profundos e banindo
+					seus dem√¥nios de uma vez por todas.</div>
+			</div>
+		</div>
+	</div>
+	<div class="filmes">
+		<div class="image-container">
 			<img
 				src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Spider-Man Beyond The Spider-Verse.jpg"
-				alt="Aranha Verso">
-			<div class="info">
-				<h1>Barbie</h1>
-				<div class="date">20 de julho de 2023</div>
-				<div class="duracao">1h 54min</div>
-				<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-				<div class="descricao">No mundo m·gico das Barbies, uma das
-					bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-					acaba sendo banida para o mundo real com seu amado Ken.</div>
-			</div>
+				alt="">
+			<button onclick="window.open('userList.jsp')">
+				adicionar lembrete <img
+					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+			</button>
 		</div>
-		<div class="filmes">
+		<div class="info">
+			<h1>Spider-Man: Beyond The Spider-Verse</h1>
+			<div class="date">28 de junho de 2024</div>
+			<div class="duracao"></div>
+			<div class="categoria">A√ß√£o, Anima√ß√£o, Fantasia</div>
+			<div class="descricao">Spider-Man: Beyond The Spider-Verse
+				trar√° a nova aventura de Miles Morales (Shameik Moore) ap√≥s os
+				acontecimentos de Homem-Aranha: Atrav√©s do Aranhaverso.</div>
+		</div>
+	</div>
+	<div class="filmes">
+		<div class="image-container">
 			<img
 				src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/main/imgs/filme_Wonka.jpg"
-				alt="Wonka">
-			<div class="info">
-				<h1>Barbie</h1>
-				<div class="date">20 de julho de 2023</div>
-				<div class="duracao">1h 54min</div>
-				<div class="categoria">Aventura, ComÈdia, FamÌlia</div>
-				<div class="descricao">No mundo m·gico das Barbies, uma das
-					bonecas comeÁa a perceber que n„o se encaixa como as outras, e
-					acaba sendo banida para o mundo real com seu amado Ken.</div>
-			</div>
+				alt="">
+			<button onclick="window.open('userList.jsp')">
+				adicionar lembrete <img
+					src="https://raw.githubusercontent.com/Rick-05/Front-End-Formul-rio/1929977168a4ffb0dd142a0144b5407e41691826/imgs/adicionar.svg">
+			</button>
+		</div>
+		<div class="info">
+			<h1>Wonka</h1>
+			<div class="date">14 de dezembro de 2023</div>
+			<div class="duracao"></div>
+			<div class="categoria">Aventura, Fam√≠lia, Fantasia</div>
+			<div class="descricao">As primeiras aventuras do exc√™ntrico
+				Willy Wonka, antes da famosa hist√≥ria na Fant√°stica F√°brica de
+				Chocolate.</div>
 		</div>
 	</div>
 </body>
