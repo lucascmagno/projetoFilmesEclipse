@@ -5,6 +5,11 @@ public class LoginCadastro {
 	private String usuario;
 	private String senha;
 
+	public LoginCadastro(String usuario, String senha) {
+		this.usuario = usuario;
+		this.senha = senha;
+	}
+
 	public String getUsuario() {
 		return usuario;
 	}
